@@ -2,34 +2,13 @@
 TOAHModel:  Model a game of Tour of Anne Hoy
 Cheese:   Model a cheese with a given (relative) size
 IllegalMoveError: Type of exceptions thrown when an illegal move is attempted
-MoveSequence: Record of a sequence of (not necessarily legal) moves. You will
-need to return MoveSequence object after solving an instance of the 4-stool
-Tour of Anne Hoy game, and we will use that to check the correctness of your
-algorithm.
+MoveSequence: Record of a sequence of (not necessarily legal) moves. 
 """
 
 
 # Copyright 2013, 2014, 2017 Gary Baumgartner, Danny Heap, Dustin Wehr,
 # Bogdan Simion, Jacqueline Smith, Dan Zingaro, Ritu Chaturvedi, Samar Sabie,
 # Jinsoo Park, Kory Mclean
-# Distributed under the terms of the GNU General Public License.
-#
-# This file is part of Assignment 1, CSC148, Winter 2017.
-#
-# This is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This file is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this file.  If not, see <http://www.gnu.org/licenses/>.
-#
-
 
 class TOAHModel:
     """ Model a game of Tour Of Anne Hoy.

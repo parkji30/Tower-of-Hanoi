@@ -5,11 +5,6 @@ IllegalMoveError: Type of exceptions thrown when an illegal move is attempted
 MoveSequence: Record of a sequence of (not necessarily legal) moves. 
 """
 
-
-# Copyright 2013, 2014, 2017 Gary Baumgartner, Danny Heap, Dustin Wehr,
-# Bogdan Simion, Jacqueline Smith, Dan Zingaro, Ritu Chaturvedi, Samar Sabie,
-# Jinsoo Park, Kory Mclean
-
 class TOAHModel:
     """ Model a game of Tour Of Anne Hoy.
 

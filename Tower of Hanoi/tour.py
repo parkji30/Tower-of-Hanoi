@@ -93,8 +93,3 @@ if __name__ == '__main__':
                         animate=CONSOLE_ANIMATE,
                         delay_btw_moves=DELAY_BETWEEN_MOVES)
     print(FOUR_STOOLS.number_of_moves())
-
-    # Leave files below to see what python_ta checks.
-    # File tour_pyta.txt must be in same folder
-    import python_ta
-    python_ta.check_all(config="tour_pyta.txt")

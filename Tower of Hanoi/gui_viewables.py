@@ -17,30 +17,8 @@ PlatformView objects receive a function to call in order to report to some
 UI object (e.g. GUIController) that their rectangle was clicked on.
 """
 
-
-# Copyright 2013, 2014, 2017, Gary Baumgartner, Dustin Wehr,
-# Danny Heap, Bogdan Simion, Jacqueline Smith, Dan Zingaro
-# Distributed under the terms of the GNU General Public License.
-#
-# This file is part of Assignment 1, CSC148, Winter 2017.
-#
-# This is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This file is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this file.  If not, see <http://www.gnu.org/licenses/>.
-
-
 from tkinter import Canvas
 from toah_model import Cheese
-
 
 class PlatformView:
     """ Visible slab, could be a Cheese or Stool
@@ -172,9 +150,3 @@ class StoolView(PlatformView):
                               x_center, y_center)
         self.canvas.itemconfigure(self.index, fill='black')
 
-
-if __name__ == "__main__":
-    # Leave lines below to see what python_ta checks.
-    # File guiviewables_pyta.txt must be in same folder.
-    import python_ta
-    python_ta.check_all(config="guiviewables_pyta.txt")

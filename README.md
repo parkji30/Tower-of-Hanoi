@@ -12,4 +12,23 @@ The objective of the puzzle is to move the entire stack to another rod, obeying 
 
 With 3 disks, the puzzle can be solved in 7 moves. The minimal number of moves required to solve a Tower of Hanoi puzzle is 2n − 1, where n is the number of disks
 
-This repository is a Python version for the Tower of Hanoi, playable either using a GUI or a terminal.
+Terminal Program
+-------------------
+The terminal version
+
+```tour.py```
+
+Shows a visual representation of the minimal moves required to move the tower.
+
+type
+```python3 tour.py```
+to run the Program and see the optimal route one should take.
+
+GUI Program
+-------------------
+The gui version allows for the user to play the game and attempt to move the tower him/her self.
+
+type
+```python3 gui_controller.py```
+and the following screen should appear.
+

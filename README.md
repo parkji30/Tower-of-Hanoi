@@ -32,3 +32,4 @@ type
 ```python3 gui_controller.py```
 and the following screen should appear.
 
+<img width="1021" alt="Screen Shot 2021-08-06 at 11 37 44 AM" src="https://user-images.githubusercontent.com/28542017/128537701-a7abe86b-97d4-458a-8d18-823188bc10d5.png">

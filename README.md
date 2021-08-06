@@ -18,11 +18,11 @@ The terminal version
 
 ```tour.py```
 
-Shows a visual representation of the minimal moves required to move the tower.
+Shows a visual demonstration of the minimal amount of moves required to move the tower.
 
 type
 ```python3 tour.py```
-to run the Program and see the optimal route one should take.
+to run the program and see the algorithm solve the path.
 
 GUI Program
 -------------------

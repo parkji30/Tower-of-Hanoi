@@ -16,12 +16,16 @@ Terminal Program
 -------------------
 The terminal version is named:
 
-```tour.py```
+```python
+tour.py
+```
 
 Shows a visual demonstration of the minimal amount of moves required to move the tower.
 
 In the terminal, type:
-```python3 tour.py```
+```python 
+tour.py
+```
 to run the program and see the algorithm solve the path.
 
 GUI Program

@@ -14,13 +14,13 @@ With 3 disks, the puzzle can be solved in 7 moves. The minimal number of moves r
 
 Terminal Program
 -------------------
-The terminal version
+The terminal version is named:
 
 ```tour.py```
 
 Shows a visual demonstration of the minimal amount of moves required to move the tower.
 
-type
+In the terminal, type:
 ```python3 tour.py```
 to run the program and see the algorithm solve the path.
 
@@ -28,7 +28,7 @@ GUI Program
 -------------------
 The gui version allows for the user to play the game and attempt to move the tower him/her self.
 
-type
+In the terminal, type:
 ```python3 gui_controller.py```
 and the following screen should appear.
 

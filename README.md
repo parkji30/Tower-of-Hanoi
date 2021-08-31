@@ -24,7 +24,7 @@ Shows a visual demonstration of the minimal amount of moves required to move the
 
 In the terminal, type:
 ```python 
-tour.py
+python3 tour.py
 ```
 to run the program and see the algorithm solve the path.
 

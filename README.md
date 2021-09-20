@@ -30,7 +30,7 @@ to run the program and see the algorithm solve the path.
 
 GUI Program
 -------------------
-The gui version allows for the user to play the game and attempt to move the tower him/her self.
+The gui version allows for the user to play the game and attempt to move the tower with a mouse.
 
 In the terminal, type:
 ```python3 gui_controller.py```
